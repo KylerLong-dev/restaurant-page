@@ -1,5 +1,39 @@
 /* styles.css */
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: rebeccapurple;
+    background-color: #075985;
+    color: whitesmoke;
+    width: 100%;
   }
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: .5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  
+}
+
+
   
