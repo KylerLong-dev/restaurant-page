@@ -22,11 +22,22 @@ nav ul {
   justify-content: center;
   padding: 0;
   margin: 0;
-  gap: .5rem;
+  gap: 1rem;
 }
 
-button {
+.nav_button {
   cursor: pointer;
+  padding: .4rem;
+  font-weight: bold;
+  border: none;
+  background-color: #075985;
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+.nav_button:hover {
+  text-decoration: underline;
+  color: rgb(223, 141, 0);
 }
 
 #content {
