@@ -1,5 +1,4 @@
 
-
 const contentContainer = document.querySelector(".content");
 
 const createGalleryOne = () => {

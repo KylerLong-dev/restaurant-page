@@ -1,3 +1,4 @@
+const contentContainer = document.querySelector(".content");
 
 const createMenu = () => {
     const menu = document.createElement("div");
@@ -33,6 +34,7 @@ const createMenu = () => {
         </ul>
     </div>
     `
+    contentContainer.appendChild(menu);
 }
 
 export { createMenu };

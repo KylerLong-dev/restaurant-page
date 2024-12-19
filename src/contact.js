@@ -1,3 +1,5 @@
+const contentContainer = document.querySelector(".content");
+
 const createContact = () => {
     const contact = document.createElement("div");
     contact.classList.add("contact");
@@ -14,6 +16,7 @@ const createContact = () => {
         <p>realemail@fake.com</p>
     </div>
     `
+    contentContainer.appendChild(contact);
 }
 
 export { createContact };
