@@ -1,15 +1,5 @@
 import "./styles.css";
-// Dynamically load all images from the 'images' folder
-const images = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
 
-const imagePaths = images.keys().map(images);
-
-// Use the images dynamically
-imagePaths.forEach((imagePath) => {
-  const img = document.createElement('img');
-  img.src = imagePath;
-  document.body.appendChild(img);
-});
 
 import { contentContainer } from "./content.js";
 console.log(contentContainer);
