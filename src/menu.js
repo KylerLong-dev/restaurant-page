@@ -7,7 +7,7 @@ const createMenu = () => {
     <h1>Menu</h1>
     <div class="apps">
         <h2>Appetizers</h2>
-        <ul>
+        <ul class="list">
             <li>Egg Rolls</li>
             <li>Spring Rolls</li>
             <li>Egg Drop Soup</li>
@@ -18,7 +18,7 @@ const createMenu = () => {
     
     <div class="sushi">
         <h2>Sushi</h2>
-        <ul>
+        <ul class="list">
             <li>Green Dragon Roll</li>
             <li>Caterpillar Roll</li>
             <li>Central Roll</li>
@@ -28,7 +28,7 @@ const createMenu = () => {
 
     <div class="dessert">
         <h2>Dessert</h2>
-        <ul>
+        <ul class="list">
             <li>Fried Ice Cream</li>
             <li>Green Tea Ice Cream</li>
         </ul>

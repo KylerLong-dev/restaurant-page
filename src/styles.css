@@ -140,6 +140,47 @@ nav ul {
   grid-row: 2 / 3;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.apps, .sushi, .dessert {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+ .list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: .7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact_person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+}
+
 
 footer {
   display: flex;
