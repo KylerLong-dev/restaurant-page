@@ -33,7 +33,7 @@ const createWelcome = () => {
     const welcome = document.createElement("div");
     welcome.classList.add("welcome");
     welcome.innerHTML = `
-        <img class="welcome_img" src="${imageFour}">
+        <img class="welcome_img" src="${imageFour}" loading="lazy">
         <div class="welcome_text">
             <h2>WELCOME</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt earum natus perferendis recusandae possimus suscipit iste, mollitia necessitatibus? Iste temporibus eligendi odio ea labore numquam unde quia placeat laborum.</p>
@@ -66,11 +66,11 @@ const createGalleryTwo = () => {
     const galleryTwo = document.createElement("div");
     galleryTwo.classList.add("gallery-2");
     galleryTwo.innerHTML = `
-        <img class="gallery-2_img" src="${imageFive}">
-        <img class="gallery-2_img" src="${imageSix}">
-        <img class="gallery-2_img" src="${imageSeven}">
-        <img class="gallery-2_img" src="${imageEight}">
-        <img class="gallery-2_img" src="${imageNine}">
+        <img class="gallery-2_img" src="${imageFive}" loading="lazy">
+        <img class="gallery-2_img" src="${imageSix}" loading="lazy">
+        <img class="gallery-2_img" src="${imageSeven}" loading="lazy">
+        <img class="gallery-2_img" src="${imageEight}" loading="lazy">
+        <img class="gallery-2_img" src="${imageNine}" loading="lazy">
     `
     contentContainer.appendChild(galleryTwo);
 }
