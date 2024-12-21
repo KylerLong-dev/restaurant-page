@@ -1,3 +1,6 @@
+import imageOne from "/public/images/derek-duran-Jz4QMhLvGgw-unsplash.jpg";
+import imageTwo from "/public/images/felix-ngo--s9MPEdgzjQ-unsplash.jpg";
+import imageThree from "/public/images/flyd-2i0it6LpwsI-unsplash.jpg";
 
 const contentContainer = document.querySelector(".content");
 
@@ -5,10 +8,11 @@ const createGalleryOne = () => {
     const galleryOne = document.createElement("div");
     galleryOne.classList.add("gallery-1");
     contentContainer.appendChild(galleryOne);
+
     galleryOne.innerHTML = `
-        <img class="gallery-1_img" src="${imagePath}">
-        <img class ="gallery-1_img" src="${imagePath}">
-        <img class="gallery-1_img" src="${imagePath}">
+        <img class="gallery-1_img" src="${imageOne}">
+        <img class ="gallery-1_img" src="${imageTwo}">
+        <img class="gallery-1_img" src="${imageThree}">
     `
 }
 

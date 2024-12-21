@@ -1,6 +1,5 @@
 import "./styles.css";
 
-
 import { contentContainer } from "./content.js";
 console.log(contentContainer);
 
