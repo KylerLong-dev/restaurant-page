@@ -1,6 +1,12 @@
 import imageOne from "/public/images/derek-duran-Jz4QMhLvGgw-unsplash.jpg";
 import imageTwo from "/public/images/felix-ngo--s9MPEdgzjQ-unsplash.jpg";
 import imageThree from "/public/images/flyd-2i0it6LpwsI-unsplash.jpg";
+import imageFour from "/public/images/j-XcLSYPRif3k-unsplash.jpg";
+import imageFive from "/public/images/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg";
+import imageSix from "/public/images/kyle-head-PW8K-W-Kni0-unsplash.jpg";
+import imageSeven from "/public/images/luigi-pozzoli-iIS1SIO5_aY-unsplash.jpg";
+import imageEight from "/public/images/ryan-stone-DQjbcUzivfA-unsplash.jpg";
+import imageNine from "/public/images/thomas-marban-EHK-EH1SRzQ-unsplash.jpg";
 
 const contentContainer = document.querySelector(".content");
 
@@ -27,7 +33,7 @@ const createWelcome = () => {
     const welcome = document.createElement("div");
     welcome.classList.add("welcome");
     welcome.innerHTML = `
-        <img class="welcome_img" src="/images/j-XcLSYPRif3k-unsplash.jpg">
+        <img class="welcome_img" src="${imageFour}">
         <div class="welcome_text">
             <h2>WELCOME</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt earum natus perferendis recusandae possimus suscipit iste, mollitia necessitatibus? Iste temporibus eligendi odio ea labore numquam unde quia placeat laborum.</p>
@@ -60,11 +66,11 @@ const createGalleryTwo = () => {
     const galleryTwo = document.createElement("div");
     galleryTwo.classList.add("gallery-2");
     galleryTwo.innerHTML = `
-        <img class="gallery-2_img" src="/images/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg">
-        <img class="gallery-2_img" src="/images/kyle-head-PW8K-W-Kni0-unsplash.jpg">
-        <img class="gallery-2_img" src="/images/luigi-pozzoli-iIS1SIO5_aY-unsplash.jpg">
-        <img class="gallery-2_img" src="/images/ryan-stone-DQjbcUzivfA-unsplash.jpg">
-        <img class="gallery-2_img" src="/images/thomas-marban-EHK-EH1SRzQ-unsplash.jpg">
+        <img class="gallery-2_img" src="${imageFive}">
+        <img class="gallery-2_img" src="${imageSix}">
+        <img class="gallery-2_img" src="${imageSeven}">
+        <img class="gallery-2_img" src="${imageEight}">
+        <img class="gallery-2_img" src="${imageNine}">
     `
     contentContainer.appendChild(galleryTwo);
 }
